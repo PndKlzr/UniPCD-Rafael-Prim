@@ -49,11 +49,12 @@ export function Home() {
                     />
 
                     <Text
-                        color="gray.700"
-                        fontSize="lg"
-                        mt={'10px'}
-                        class="Home_Text-sc-18r806q-0"
-                        textAlign="center"
+                        style={{
+                            color: 'gray.700',
+                            fontSize: 'lg',
+                            mt: '10px',
+                            textAlign: 'center',
+                        }}
                     >
                         <strong>Quem somos?</strong>
                         <br />
